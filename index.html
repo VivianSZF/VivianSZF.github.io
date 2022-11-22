@@ -17,6 +17,16 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   
   <link rel="stylesheet" type="text/css" href="stylesheet.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>Ⓜ️</text></svg>">
+
+  <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Source+Sans+Pro:300,300i,600">
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,400italic' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Roboto" />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+  <!-- <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous"> -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdn.rawgit.com/jpswalsh/academicons/master/css/academicons.min.css">
   <!-- <link rel="icon" type="image/png" href="images/seal_icon.png"> -->
 </head>
 
@@ -24,6 +34,56 @@
   <table style="width:100%;max-width:800px;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
     <tr style="padding:0px">
       <td style="padding:0px">
+
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+          <tr>
+          <td style="padding:20px;width:100%;vertical-align:middle">
+            <nav class="navbar navbar-default navbar-fixed-top">
+              <div class="container">
+                <div class="navbar-header page-scroll">
+                  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                  </button>
+                  <a class='navbar-brand page-scroll' href='/'>
+                    <span style='font-family:"Open Sans"; font-weight:300'>Zifan Shi</span>
+                  </a>
+                </div>
+            
+                <div id="navbar" class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                  <ul class="nav navbar-nav navbar-right">
+                      <li style="font-size:20px"><a class='name' href="">HOME</a></li>
+                      
+                      <li style="font-size:20px"><a class='name' href="#news">News</a></li>
+                      <li style="font-size:20px"><a class='name' href="#Publications">Publications</a></li>
+                      <li style="font-size:20px"><a class='name' href="#experiences">Experiences</a></li>
+                      <li style="font-size:20px"><a class='name' href="#Awards">Awards</a></li>
+                  </ul>
+                </div>
+              </div>
+            </nav>
+
+            <!-- from https://yangekun.gitee.io/blog/2018/12/14/2018-12-14-Bootstrap%E5%AF%BC%E8%88%AA%E6%A0%8F%E7%9A%84%E8%87%AA%E5%8A%A8%E6%8A%98%E5%8F%A0%E9%9A%90%E8%97%8F/ -->
+            <script>
+                  $(window).scroll(function () {
+                if ($(window).width() < 768) {
+                  $("#navbar a").click(function () {
+                    $("#navbar").collapse('hide');
+                  });
+                  $(window).scroll(function () {
+                    $("#navbar").collapse('hide');
+                  });
+                }
+              });	
+            </script>
+
+          </td>
+          </tr>
+        </tbody></table>
+
+
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
           <tr style="padding:0px">
             <td style="padding:2.5%;width:63%;vertical-align:middle">
@@ -48,7 +108,43 @@
             </td>
           </tr>
         </tbody></table>
+
+        <a id="news"></a>
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+          <tr>
+          <td style="padding:10px;width:100%;vertical-align:middle">
+            <heading>News</heading>
+          </td>
+          </tr>
+        </tbody></table>
+
+        <table class="wsite-multicol-table" style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+          <tbody class="wsite-multicol-tbody">
+            <tr class="wsite-multicol-tr">
+              <td class="wsite-multicol-col" style="width:100%; padding:0 0px;">
+                <div class="paragraph" style="text-align:justify;max-height: 622px; overflow:auto; max-width: 9999999999px">
+                  <ul class="navlist">
+                    <li><strong>[10/2022]:</strong> Our survey on 3D generative models is available now.</li>
+                  </ul>
+                  <ul class="navlist">
+                    <li><strong>[09/2022]:</strong> One paper is accepted to NeurIPS 2022 (Spotlight).</li>
+                  </ul>
+                  <ul class="navlist">	
+                    <li><strong>[07/2022]:</strong> One paper is accepted to ECCV 2022 (Oral).</li>
+                  </ul>
+                  <ul class="navlist">	
+                    <li><strong>[07/2021]:</strong> One paper is accepted to IROS 2021.</li>
+                  </ul>
+                  <ul class="navlist">	
+                    <li><strong>[03/2021]:</strong> One paper is accepted to CVPR 2021.</li>
+                  </ul>
+                </div>
+              </td>
+            </tr>
+          </tbody>
+        </table>
         
+        <a id="Publications"></a>
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
           <heading>Publications</heading>
           <p>(* indicates equal contribution)</p>
@@ -96,7 +192,7 @@
               <a href="https://cqf.io/">Qifeng Chen</a>,
               <a href="https://sites.google.com/view/dyyeung/home">Dit-Yan Yeung</a>
               <br>
-              <em>NeurIPS</em> 2022 &nbsp
+              <em>NeurIPS</em> 2022 <strong style="color:red"> (Spotlight Presentation)</strong> &nbsp
               <br>
               <a href="https://arxiv.org/abs/2209.15637">Paper</a> /
               <a href="https://vivianszf.github.io/geod">Project Page</a> /
@@ -233,6 +329,7 @@
             </td>
           </tr>
         </tbody></table> -->
+        <a id="experiences"></a>
           <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
             <heading>Experiences</heading>
             <tr onmouseout="neuralsimulator_stop()" onmouseover="neuralsimulator_start()"></tr>
@@ -244,7 +341,7 @@
               </td>
               <td style="padding:20px;width:75%;vertical-align:middle">
                   <papertitle>Research Intern, Ant Research</papertitle>
-                  <p>June 2022 - Now</p>
+                  <p>Jun. 2022 - Present</p>
               </td>
             <tr>
             
@@ -257,13 +354,27 @@
               </td>
               <td style="padding:20px;width:75%;vertical-align:middle">
                   <papertitle>Research Intern, Bytedance</papertitle>
-                  <p>Sep 2021 - May 2022</p>
+                  <p>Sep. 2021 - May 2022</p>
+              </td>
+            </tr>
+
+            <tr onmouseout="neuralsimulator_stop()" onmouseover="neuralsimulator_start()"></tr>
+              <td style="padding:20px;width:25%;vertical-align:middle">
+                <div class="one">
+                  <div class="three" id='bytedance'><img src='images/ucla.png' width="100"></div>
+                  <img src='images/ucla.png' width="100">
+                </div>
+              </td>
+              <td style="padding:20px;width:75%;vertical-align:middle">
+                  <papertitle>Research Assistant, UCLA</papertitle>
+                  <p>Jul. 2018 - Sep. 2018</p>
               </td>
             </tr>
             
           </tbody></table>
-
-         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+         
+        <a id="Awards"></a>
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
           <tr>
             <td>
               <heading>Selected Awards</heading>
